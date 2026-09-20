@@ -14,8 +14,8 @@ This repo contains a Text-to-Speech (TTS) application built around the Kokoro ne
 
 ```
 
-The examples directory contains starter examples sourced from the official [kokoro-onnx repo](https://github.com/thewh1teagle/kokoro-onnx). 
-The gradio directory contains both examples of gradio applications and several varying TTS application interface that take text or a file and output audio.
+The `examples/` directory contains starter examples sourced from the official [kokoro-onnx repo](https://github.com/thewh1teagle/kokoro-onnx). 
+The `gradio/` directory contains both examples of Gradio applications and several varying TTS application interface that take text or a file and output audio.
 
 ## 🚀 Getting Started
 
@@ -37,10 +37,10 @@ Download [kokoro-v1.0.onnx](https://github.com/thewh1teagle/kokoro-onnx/releases
 
 ## 💻 Usage
 ### Gradio
-The gradio/ directory contains the main interactive project. Running the application scripts will launch a local web server with a UI for inputting text and listening to generated audio. For example:
+The `gradio/` directory contains the main interactive project. Running the application scripts will launch a local web server with a UI for inputting text and listening to generated audio. For example:
 
 ```console
 uv run gradio/tts/type_tts.py
 ```
 
-More information on gradio [here](https://gradio.app/).
+More information on Gradio [here](https://gradio.app/).
