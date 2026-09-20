@@ -15,6 +15,7 @@ This repo contains a Text-to-Speech (TTS) application built around the Kokoro ne
 ```
 
 The `examples/` directory contains starter examples sourced from the official [kokoro-onnx repo](https://github.com/thewh1teagle/kokoro-onnx). 
+
 The `gradio/` directory contains both examples of Gradio applications and several varying TTS application interface that take text or a file and output audio.
 
 ## 🚀 Getting Started
